@@ -22,13 +22,13 @@ export default function Navbar() {
     { href: 'spacer1', label: 's' },
     { href: '/leaderboard', label: 'LEADERBOARD' },
     { href: 'spacer2', label: 's' },
-    { href: '/forums', label: 'FORUMS' },
+    { href: '/chatrooms', label: 'CHATROOMS' },
     { href: 'spacer3', label: 's' },
     { href: '/shop', label: 'SHOP' },
   ];
 
   return <nav className=" md:mx-16 md:my-4 md:py-2 border-b-[3px] border-b-accent flex justify-between items-center">
-    <Link href={"/"}><Image src={"/logo.svg"} alt="logo" width={256} height={256} className="w-auto h-auto md:w-32" /></Link>
+    <Link href={getItem("logged") ? "/home" : "/"}><Image src={"/logo.svg"} alt="logo" width={256} height={256} className="w-auto h-auto md:w-32" /></Link>
     <div id="links" className="font-barlow flex w-full justify-between mx-28 items-center">
       {links.map((link) => {
         return <Fragment key={link.href}>
@@ -36,7 +36,7 @@ export default function Navbar() {
             link.label === "s"
               ? <div className="h-10 w-[2px] bg-accent"></div>
               : <Link href={link.href} className={"md:text-4xl " + ((pathname == link.href) || (pathname === "/" && link.label === "HOME") || (pathname === "/map" && link.label === "HOME") || (pathname === "/clueboard" && link.label === "HOME")
-                ? "text-highlight"
+                ? "text-highlight font-semibold"
                 : "text-accent")}>
                 {link.label}
               </Link>}
