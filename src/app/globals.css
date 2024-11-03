@@ -128,3 +128,42 @@ footer,
 .text-shadow {
   text-shadow: 8px 10px 0px var(--dblue);
 }
+
+.text-shadow-accent {
+  text-shadow: 4px 4px 0px #a5876ba1;
+}
+
+/* Keyframes for fade-in and fade-out animations */
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOutAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Fade-in class */
+.fadeIn {
+  opacity: 1;
+  animation: fadeInAnimation 0.5s ease forwards;
+  pointer-events: auto; /* Makes the element interactable */
+  visibility: visible;
+}
+
+/* Fade-out class */
+.fadeOut {
+  opacity: 0;
+  animation: fadeOutAnimation 0.5s ease forwards;
+  pointer-events: none; /* Makes the element non-interactable */
+  visibility: hidden;
+}

@@ -7,7 +7,7 @@ export default function Landing() {
     <main>
       <div className="p-16 flex">
         <div className="flex-[2] flex flex-col gap-16">
-          <div className="font-retro text-7xl text-ldblue">
+          <div className="font-retro text-7xl text-ldblue text-shadow-accent">
             Like Scooby-Doo, but the mystery is yours to solve!
           </div>
           <div className="font-blatant text-accent text-4xl">
