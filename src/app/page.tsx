@@ -26,7 +26,7 @@ export default function Landing() {
         <div className="font-retro text-pink text-8xl text-center mt-24 abtus">About Us</div>
         <Image src={"/aboutus.gif"} alt="" width={1000} height={1000} className="m-auto mt-12" />
       </div>
-      <div className=" bg-[url('/abtusbg.png')] text-pink font-blatant text-5xl px-40 py-12 mt-24 text-center">
+      <div className=" bg-[url('/abtusbg.png')] text-pink font-blatant text-5xl px-40 py-12 mt-24 text-center bg-cover">
         Welcome to SNIFF, the coolest online forum created by us, Mystery Incorporated for like-minded mystery enthusiasts!
         This forum is a place where you can chat with fellow mystery lovers about all the odd events happening in your city—a digital
         clubhouse where you can share your own urban mysteries—whether it&apos;s a spooky manor or a ghost story from your neighborhood,

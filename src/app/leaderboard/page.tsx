@@ -16,7 +16,7 @@ export default function Leaderboard() {
   return <main>
     <div className="w-fit m-auto mt-24">
       <div className="font-retro text-highlight text-9xl text-shadow">Leaderboard</div>
-      <div className="font-blatant text-dblue text-4xl relative bottom-5 left-48">Winner gets to meet the Mystery Inc.</div>
+      <div className="font-blatant text-dblue text-4xl relative bottom-5 left-48 z-0">Winner gets to meet the Mystery Inc.</div>
     </div>
     <div className="flex justify-center items-center gap-52 text-center font-barlow font-medium text-accent text-4xl mb-24">
       <div>
