@@ -26,6 +26,7 @@ const config: Config = {
         lblue: "#EEF3FF",
         lpink: "#FFDAE5",
         dlblue: "#B1C3EE",
+        lyellow: "#FFF3D7",
       },
     },
   },

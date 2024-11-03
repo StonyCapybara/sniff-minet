@@ -52,8 +52,9 @@ export default function Modal({ isOpen, onClose }: { isOpen: boolean, onClose: (
             <Image src={"/closebtn.svg"} width={32} height={32} alt="Close" onClick={onClose} className="h-full hover:cursor-pointer mx-2 my-2" />
           </div>
           <div className="bg-cyellow flex flex-col gap-3 px-12 py-6">
-            <input type="text" id="email" className="text-4xl px-3 w-96 py-2 bg-dblue text-cyellow font-barlow rounded-md" placeholder="EMAIL ID:" />
-            <input type="password" id="password" className="text-4xl w-96 px-3 py-2 bg-dblue text-cyellow font-barlow rounded-md" placeholder="PASSWORD:" />
+            <input type="text" id="email" className="text-4xl px-3 w-96 py-2 bg-dblue text-cyellow font-barlow rounded-md" placeholder="EMAIL ID" />
+            <input type="password" id="password" className="text-4xl w-96 px-3 py-2 bg-dblue text-cyellow font-barlow rounded-md" placeholder="PASSWORD" />
+            <div className="text-dblue font-blatant text-2xl text-center">Don&apos;t have an account? <button onClick={next} className="inline text-pink font-barlow underline">Sign up.</button></div>
             <button onClick={next} className="text-3xl bg-dblue font-barlow font-semibold text-cyellow w-fit m-auto px-4 rounded-md">SIGN IN</button>
           </div>
         </div>
