@@ -71,7 +71,7 @@ export default function Modal({ isOpen, onClose }: { isOpen: string, onClose: ()
                     case "velma":
                       return <div>Design<br />Local smarty<br />Still can&apos;t find her glasses<br />Brainrot 100</div>
                     case "daphne":
-                      return <div>Design/AV<br />Fashion icon<br />"I'm not in danger, I am the danger."<br />Eye colour shapeshifter</div>
+                      return <div>Design/AV<br />Fashion icon<br />&quot;I&apos;m not in danger, I am the danger.&quot;<br />Eye colour shapeshifter</div>
                     case "scooby":
                       return <div>Best prez<br />Bengali<br />Please let us out of your basement<br />Skibidi</div>
                   }
