@@ -9,9 +9,9 @@ export default function Shop() {
           <div>Sort by</div>
           <Image src={"/sort.png"} alt="" width={16} height={16} className="w-auto h-4 mb-2" />
         </div>
-        <div><Image src={"/shopsearch.png"} alt="" width={128} height={32} /></div>
+        <div><Image src={"/shopsearch.png"} priority alt="" width={128} height={32} /></div>
       </div>
-      <Image src={"/shop.svg"} alt="" width={1294} height={562} className="px-12 py-8" />
+      <Image src={"/shop.svg"} priority alt="" width={1294} height={562} className="px-12 py-8" />
     </div>
   </div>
 }
